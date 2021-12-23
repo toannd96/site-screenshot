@@ -2,8 +2,8 @@ package main
 
 import (
 	"os"
-	"site-screenshot/handle"
-	"site-screenshot/router"
+	"screenshot-site/handle"
+	"screenshot-site/router"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"

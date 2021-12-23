@@ -1,4 +1,4 @@
-module site-screenshot
+module screenshot-site
 
 // +heroku goVersion go1.17
 go 1.17

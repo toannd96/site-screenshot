@@ -1,7 +1,7 @@
 package router
 
 import (
-	"site-screenshot/handle"
+	"screenshot-site/handle"
 
 	"github.com/gofiber/fiber/v2"
 )
