@@ -1,1 +1,1 @@
-web: bin/screenshort
+web: bin/screenshot-site

@@ -13,5 +13,5 @@ type API struct {
 
 func (api *API) SetupRouter() {
 	app := api.Fiber.Group("/")
-	app.Get("screenshot", api.Handle.ScreenShot)
+	app.Get("fullpage", api.Handle.ScreenShot)
 }
