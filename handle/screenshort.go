@@ -12,9 +12,9 @@ import (
 	"github.com/gofiber/fiber/v2"
 )
 
-type ScreenShortHandle struct{}
+type ScreenShotHandle struct{}
 
-func (s *ScreenShortHandle) ScreenShot(c *fiber.Ctx) error {
+func (s *ScreenShotHandle) ScreenShot(c *fiber.Ctx) error {
 	url := c.Query("url")
 	ctx, cancel := cdp.NewContext(context.Background())
 	defer cancel()
