@@ -2,6 +2,7 @@ package main
 
 import (
 	"os"
+
 	"screenshot-site/handle"
 	"screenshot-site/router"
 
@@ -17,7 +18,7 @@ func init() {
 
 func main() {
 	f := fiber.New()
-	screenShort := handle.ScreenShortHandle{}
+	screenShort := handle.ScreenShotHandle{}
 	api := router.API{
 		Fiber:  f,
 		Handle: screenShort,
