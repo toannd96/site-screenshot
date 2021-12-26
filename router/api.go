@@ -8,7 +8,7 @@ import (
 
 type API struct {
 	Fiber  *fiber.App
-	Handle handle.ScreenShortHandle
+	Handle handle.ScreenShotHandle
 }
 
 func (api *API) SetupRouter() {
